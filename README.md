@@ -2,15 +2,6 @@
 # SMART HOSPITAL: IAQ
 
 **Surveillance Intelligente de la Qualité de l'Air Intérieur en Temps Réel dans un Espace Hospitalier**
-
-## Réalisé par :
-- Wissal CHARRAKI
-- Adam ESSBAA
-- Abdelhak AMZIL
-
-## Encadré par :
-- Pr. Abdelhalim HNINI
-
 ---
 
 ## **Contexte**
@@ -54,10 +45,12 @@ La qualité de l'air dans les espaces hospitaliers, en particulier les salles d'
 - Affichage LCD I2C
 - Divers modules électroniques (ADS7830, GPIO Extension board, etc.)
 
+
 ### Pipeline de Traitement :
 1. **Collecte des Données** :
    - Capteurs IoT
    - Stockage dans DynamoDB
+   ![Diagramme du système](pipeline.drawio.png)
 2. **Préparation des Données** :
    - Nettoyage et extraction via Python
 3. **Analyse et Prédiction** :
